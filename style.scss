@@ -331,3 +331,21 @@ nav {
     }
   }
 }
+
+@media screen and (max-width: 450px) {
+  nav {
+    display: none;
+  }
+  #progress {
+    display: none;
+  }
+  .c5 {
+    font-size: min(15vh, 12vw);
+  }
+  .c30 {
+    font-size: min(1.6vh, 1.3vw);
+  }
+  .slide-wrapper > .slide.last {
+    line-height: 1;
+  }
+}
