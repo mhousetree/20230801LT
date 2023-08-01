@@ -348,6 +348,10 @@ nav {
   .slide-wrapper {
     max-width: 95%;
 
+    &:first-of-type {
+      margin-top: 0;
+    }
+
     > .slide.last {
       line-height: 1;
     }
