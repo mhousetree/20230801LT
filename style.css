@@ -301,7 +301,7 @@ nav button:disabled {
     max-width: 95%;
   }
   .slide-wrapper:first-of-type {
-    margin-top: 0;
+    margin-top: 0.5rem;
   }
   .slide-wrapper > .slide.last {
     line-height: 1;
