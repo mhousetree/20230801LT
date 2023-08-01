@@ -345,7 +345,11 @@ nav {
   .c30 {
     font-size: min(1.6vh, 1.3vw);
   }
-  .slide-wrapper > .slide.last {
-    line-height: 1;
+  .slide-wrapper {
+    max-width: 95%;
+
+    > .slide.last {
+      line-height: 1;
+    }
   }
 }
